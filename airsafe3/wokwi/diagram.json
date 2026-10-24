@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "AIRSAFE",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled", "top": -150, "left": 150, "attrs": { "i2cAddress": "0x3c" } },
+    { "type": "wokwi-rgb-led", "id": "led1", "top": -140, "left": -110, "attrs": { "common": "cathode" } },
+    { "type": "wokwi-resistor", "id": "rR", "top": -60, "left": -150, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rG", "top": -40, "left": -150, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "rB", "top": -20, "left": -150, "attrs": { "value": "220" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "oled:VCC", "red", [] ],
+    [ "esp:GND.1", "oled:GND", "black", [] ],
+    [ "esp:21", "oled:SDA", "green", [] ],
+    [ "esp:22", "oled:SCL", "blue", [] ],
+    [ "esp:25", "rR:1", "red", [] ],
+    [ "rR:2", "led1:R", "red", [] ],
+    [ "esp:33", "rG:1", "green", [] ],
+    [ "rG:2", "led1:G", "green", [] ],
+    [ "esp:32", "rB:1", "blue", [] ],
+    [ "rB:2", "led1:B", "blue", [] ],
+    [ "led1:COM", "esp:GND.2", "black", [] ]
+  ],
+  "dependencies": {}
+}

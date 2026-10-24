@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = '.pio/build/wokwi/firmware.bin'
+elf = '.pio/build/wokwi/firmware.elf'
+# Exposes the simulated ESP32's USB serial on localhost:4000 for tools/wokwi_bridge.mjs
+rfc2217ServerPort = 4000

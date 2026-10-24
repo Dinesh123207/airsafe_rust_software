@@ -1,0 +1,372 @@
+{
+ "keccak": [
+  {
+   "input_hex": "",
+   "hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+  },
+  {
+   "input_hex": "616263",
+   "hash": "4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45"
+  }
+ ],
+ "addresses": [
+  {
+   "private_key": "0000000000000000000000000000000000000000000000000000000000000001",
+   "address": "0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf"
+  },
+  {
+   "private_key": "4c0883a69102937d6231471b5dbb6204fe5129617082792ae468d01a3f362318",
+   "address": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23"
+  }
+ ],
+ "personal_sign": [
+  {
+   "message": "airsafe.example wants you to sign in with your Ethereum account:\n0x2c7536E3605D9C16a7a3D7b1898e529396a65c23\n\nSign in to AIRSAFE.\n\nURI: https://airsafe.example\nVersion: 1\nChain ID: 31337\nNonce: nonce0abcdef0123456789\nIssued At: 2026-10-10T12:00:00.000Z\nExpiration Time: 2026-10-10T12:10:00.000Z",
+   "signature": "0x84651a3f0544073b8c7660c0f8ae2bbf8baf1cf94bc02b13121647bf34b53e772778f54cbb96a3ede653371e38ae9609fae864a992dc33bb9261591471c003cb1c",
+   "address": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23"
+  },
+  {
+   "message": "airsafe.example wants you to sign in with your Ethereum account:\n0x2c7536E3605D9C16a7a3D7b1898e529396a65c23\n\nSign in to AIRSAFE.\n\nURI: https://airsafe.example\nVersion: 1\nChain ID: 31337\nNonce: nonce1abcdef0123456789\nIssued At: 2026-10-10T12:00:00.000Z\nExpiration Time: 2026-10-10T12:10:00.000Z",
+   "signature": "0xaf731d75091463fb95d6bff0a8769f939c14caf2a1073647d196db7071eb3f5460aa5e41c134c164efcb10e89418f552f7d4b409bc104f5b0ce5b611251d22101c",
+   "address": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23"
+  },
+  {
+   "message": "airsafe.example wants you to sign in with your Ethereum account:\n0x2c7536E3605D9C16a7a3D7b1898e529396a65c23\n\nSign in to AIRSAFE.\n\nURI: https://airsafe.example\nVersion: 1\nChain ID: 31337\nNonce: nonce2abcdef0123456789\nIssued At: 2026-10-10T12:00:00.000Z\nExpiration Time: 2026-10-10T12:10:00.000Z",
+   "signature": "0xfee5c2c87801f939bd285fa9109cb0379767cb71b636dc94d6867c33f75d18d10a05aa30cf5f5dfcf48a8099c70a61ad22b2e1fdcb1db8080754233983c935721b",
+   "address": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23"
+  },
+  {
+   "message": "airsafe.example wants you to sign in with your Ethereum account:\n0x2c7536E3605D9C16a7a3D7b1898e529396a65c23\n\nSign in to AIRSAFE.\n\nURI: https://airsafe.example\nVersion: 1\nChain ID: 31337\nNonce: nonce3abcdef0123456789\nIssued At: 2026-10-10T12:00:00.000Z\nExpiration Time: 2026-10-10T12:10:00.000Z",
+   "signature": "0xe948f4b5546beeb3abdcb27d97ba13b40b71360f7ac924e52a9f89b1966bd4c642d245a1481807284a52165801407d4e8025eb5184ce0f8ce33ea875c0d61ca91b",
+   "address": "0x2c7536E3605D9C16a7a3D7b1898e529396a65c23"
+  }
+ ],
+ "eip155": {
+  "private_key": "4646464646464646464646464646464646464646464646464646464646464646",
+  "nonce": 9,
+  "gas_price": "20000000000",
+  "gas_limit": 21000,
+  "to": "0x3535353535353535353535353535353535353535",
+  "value": "1000000000000000000",
+  "data": "",
+  "chain_id": 1,
+  "signing_hash": "daf5a779ae972f972197303d7b574746c7ef83eadac0f2791ad23db92e4c8e53",
+  "raw": "0xf86c098504a817c800825208943535353535353535353535353535353535353535880de0b6b3a76400008025a028ef61340bd939bc2195fe537567866003e1a15d3c71ff63e1590620aa636276a067cbe9d8997f761aecb703304b3800ccf555c9f3dc64214b297fb1966a3b6d83",
+  "tx_hash": "0x33469b22e9f636356c4160a87eb19df52b7412e8eac32a4a55ffe88ea8350788"
+ },
+ "anchor_tx": {
+  "private_key": "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+  "sender": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "contract": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "root": "0xb567c0cbb2e85c295e6ade930e5bb349a4b9bee9489caa7d6b679dd46e82a711",
+  "batch_id": 7,
+  "leaf_count": 25,
+  "from_ms": 1760097600000,
+  "to_ms": 1760097900000,
+  "calldata": "0x15c74613b567c0cbb2e85c295e6ade930e5bb349a4b9bee9489caa7d6b679dd46e82a7110000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000001900000000000000000000000000000000000000000000000000000199cdfe020000000000000000000000000000000000000000000000000000000199ce0295e0",
+  "nonce": 1,
+  "gas_price": "1000000000",
+  "gas_limit": 200000,
+  "chain_id": 31337,
+  "signing_hash": "54fdde3552cee61a676cd5c219d45cc180197541030ed739eb9ff3726bda12ea",
+  "raw": "0xf9010b01843b9aca0083030d40945fbdb2315678afecb367f032d93f642f64180aa380b8a415c74613b567c0cbb2e85c295e6ade930e5bb349a4b9bee9489caa7d6b679dd46e82a7110000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000001900000000000000000000000000000000000000000000000000000199cdfe020000000000000000000000000000000000000000000000000000000199ce0295e082f4f5a0230f210e60b239fa9868790b8115442ac0cff3ff17fd153e2a2c1aac09e24176a065333a3128386379ffd3ca3fb3b380a75655e9e29b5dab6d3a509f916884ae26",
+  "tx_hash": "0xa501683206e1873dfd49cf9e216378c7986ae38e2af7ad316eb7ff1a2341ef83",
+  "selector": "15c74613"
+ },
+ "ct_leaves": [
+  "",
+  "00",
+  "10",
+  "2021",
+  "3031",
+  "40414243",
+  "5051525354555657",
+  "606162636465666768696a6b6c6d6e6f"
+ ],
+ "ct_roots": [
+  "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+  "fac54203e7cc696cf0dfcb42c92a1d9dbaf70ad9e621f4bd8d98662f00e3c125",
+  "aeb6bcfe274b70a14fb067a5e5578264db0fa9b51af5e0ba159158f329e06e77",
+  "d37ee418976dd95753c1c73862b9398fa2a2cf9b4ff0fdfe8b30cd95209614b7",
+  "4e3bbb1f7b478dcfe71fb631631519a3bca12c9aefca1612bfce4c13a86264d4",
+  "76e67dadbcdf1e10e1b74ddc608abd2f98dfb16fbce75277b5232a127f2087ef",
+  "ddb89be403809e325750d3d263cd78929c2942b7942a34b77e122c9594a74c8c",
+  "5dc9da79a70659a9ad559cb701ded9a2ab9d823aad2f4960cfe370eff4604328"
+ ],
+ "proofs": [
+  {
+   "size": 1,
+   "index": 0,
+   "leaf_hash": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "path": [],
+   "root": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "leaf_data": "leaf-0"
+  },
+  {
+   "size": 2,
+   "index": 0,
+   "leaf_hash": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "path": [
+    "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f"
+   ],
+   "root": "60a53eed0de87a90c8e59427c59c46253c33a76a09502a51801300927b7e6bdc",
+   "leaf_data": "leaf-0"
+  },
+  {
+   "size": 2,
+   "index": 1,
+   "leaf_hash": "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f",
+   "path": [
+    "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7"
+   ],
+   "root": "60a53eed0de87a90c8e59427c59c46253c33a76a09502a51801300927b7e6bdc",
+   "leaf_data": "leaf-1"
+  },
+  {
+   "size": 3,
+   "index": 0,
+   "leaf_hash": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "path": [
+    "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f",
+    "fca89f57c9f8c8eb4047a7ff9d333acf9e0f3384b20b255bceab0f216dcca267"
+   ],
+   "root": "cf763a041c81ceef1578a6083f75c61bef2e0014f2a3e683a97fcfca5be7f19a",
+   "leaf_data": "leaf-0"
+  },
+  {
+   "size": 3,
+   "index": 1,
+   "leaf_hash": "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f",
+   "path": [
+    "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+    "fca89f57c9f8c8eb4047a7ff9d333acf9e0f3384b20b255bceab0f216dcca267"
+   ],
+   "root": "cf763a041c81ceef1578a6083f75c61bef2e0014f2a3e683a97fcfca5be7f19a",
+   "leaf_data": "leaf-1"
+  },
+  {
+   "size": 3,
+   "index": 2,
+   "leaf_hash": "fca89f57c9f8c8eb4047a7ff9d333acf9e0f3384b20b255bceab0f216dcca267",
+   "path": [
+    "60a53eed0de87a90c8e59427c59c46253c33a76a09502a51801300927b7e6bdc"
+   ],
+   "root": "cf763a041c81ceef1578a6083f75c61bef2e0014f2a3e683a97fcfca5be7f19a",
+   "leaf_data": "leaf-2"
+  },
+  {
+   "size": 5,
+   "index": 0,
+   "leaf_hash": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "path": [
+    "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f",
+    "bd45ff28796704d88bdac51b1df553fda59837b616d6d1cb2114dbc3b087ff69",
+    "ea9fc1a1b6e191b460d0d6306e3e870c173f39330f13cda1b70cfc72bdc398ba"
+   ],
+   "root": "00d21829a5503145348abcf712513eacf2a274211ad83e970202bb5b6d80b286",
+   "leaf_data": "leaf-0"
+  },
+  {
+   "size": 5,
+   "index": 2,
+   "leaf_hash": "fca89f57c9f8c8eb4047a7ff9d333acf9e0f3384b20b255bceab0f216dcca267",
+   "path": [
+    "f76836325aec5699d8d71f8e42e9d47c5c29b08059ba296384f7ca40ad3a40ae",
+    "60a53eed0de87a90c8e59427c59c46253c33a76a09502a51801300927b7e6bdc",
+    "ea9fc1a1b6e191b460d0d6306e3e870c173f39330f13cda1b70cfc72bdc398ba"
+   ],
+   "root": "00d21829a5503145348abcf712513eacf2a274211ad83e970202bb5b6d80b286",
+   "leaf_data": "leaf-2"
+  },
+  {
+   "size": 5,
+   "index": 4,
+   "leaf_hash": "ea9fc1a1b6e191b460d0d6306e3e870c173f39330f13cda1b70cfc72bdc398ba",
+   "path": [
+    "bdd1c5ff55b19cb6b0e7c761bf9a6ccaa27fbbfc07b74f1fabb6e911a0bd2ab3"
+   ],
+   "root": "00d21829a5503145348abcf712513eacf2a274211ad83e970202bb5b6d80b286",
+   "leaf_data": "leaf-4"
+  },
+  {
+   "size": 8,
+   "index": 0,
+   "leaf_hash": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "path": [
+    "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f",
+    "bd45ff28796704d88bdac51b1df553fda59837b616d6d1cb2114dbc3b087ff69",
+    "f58aaab46122102d66b00c5eb50b13dd763b5f800139b424fda8b1cacae1408a"
+   ],
+   "root": "ca6b7b3e674ac86c1027b59c87c064fc3bc27b313294c75f83bd05fdd13f0dcf",
+   "leaf_data": "leaf-0"
+  },
+  {
+   "size": 8,
+   "index": 4,
+   "leaf_hash": "ea9fc1a1b6e191b460d0d6306e3e870c173f39330f13cda1b70cfc72bdc398ba",
+   "path": [
+    "8f1593cb92f429d9340b9bbc1f0bb122adf8026c42a4a42142e2168931727236",
+    "398ebdeb46e179eeffacef4635fd30410954e169b88e22741fa96cffb1022a85",
+    "bdd1c5ff55b19cb6b0e7c761bf9a6ccaa27fbbfc07b74f1fabb6e911a0bd2ab3"
+   ],
+   "root": "ca6b7b3e674ac86c1027b59c87c064fc3bc27b313294c75f83bd05fdd13f0dcf",
+   "leaf_data": "leaf-4"
+  },
+  {
+   "size": 8,
+   "index": 7,
+   "leaf_hash": "060242692909024231d050c5d4434146ba77da322d450286f577c9f951615d53",
+   "path": [
+    "676f3782f5b3a5fb4370ed49572cedc523f4a66322269c85f2af0509d17b0a4d",
+    "985bb5d36b927800876871da925a7e82abe83a9ddba5882920a007a55ea2b376",
+    "bdd1c5ff55b19cb6b0e7c761bf9a6ccaa27fbbfc07b74f1fabb6e911a0bd2ab3"
+   ],
+   "root": "ca6b7b3e674ac86c1027b59c87c064fc3bc27b313294c75f83bd05fdd13f0dcf",
+   "leaf_data": "leaf-7"
+  },
+  {
+   "size": 13,
+   "index": 0,
+   "leaf_hash": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "path": [
+    "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f",
+    "bd45ff28796704d88bdac51b1df553fda59837b616d6d1cb2114dbc3b087ff69",
+    "f58aaab46122102d66b00c5eb50b13dd763b5f800139b424fda8b1cacae1408a",
+    "d0b7438526b80d82cf51c096a8b65a2c19c09e0cff94419d42362be94aec5b64"
+   ],
+   "root": "a8ef4844c8e1d5ba49c811cdb86e95791f5d32ca7d9709afda28fdf65e949a53",
+   "leaf_data": "leaf-0"
+  },
+  {
+   "size": 13,
+   "index": 6,
+   "leaf_hash": "676f3782f5b3a5fb4370ed49572cedc523f4a66322269c85f2af0509d17b0a4d",
+   "path": [
+    "060242692909024231d050c5d4434146ba77da322d450286f577c9f951615d53",
+    "985bb5d36b927800876871da925a7e82abe83a9ddba5882920a007a55ea2b376",
+    "bdd1c5ff55b19cb6b0e7c761bf9a6ccaa27fbbfc07b74f1fabb6e911a0bd2ab3",
+    "d0b7438526b80d82cf51c096a8b65a2c19c09e0cff94419d42362be94aec5b64"
+   ],
+   "root": "a8ef4844c8e1d5ba49c811cdb86e95791f5d32ca7d9709afda28fdf65e949a53",
+   "leaf_data": "leaf-6"
+  },
+  {
+   "size": 13,
+   "index": 12,
+   "leaf_hash": "7465f4c1ef1ba37b9cb3a5166cfa1ae3ec89512ef73a32e51b62b8ef4b95d7c0",
+   "path": [
+    "fee938f7594012df9b7ce3e3600a09706a2adb92bf7b73b93a8dd92b8be5a280",
+    "ca6b7b3e674ac86c1027b59c87c064fc3bc27b313294c75f83bd05fdd13f0dcf"
+   ],
+   "root": "a8ef4844c8e1d5ba49c811cdb86e95791f5d32ca7d9709afda28fdf65e949a53",
+   "leaf_data": "leaf-12"
+  },
+  {
+   "size": 33,
+   "index": 0,
+   "leaf_hash": "305df59f9590c3c9ac63d2b2743c388e3792449078cebf7fb3dbe6471643b2b7",
+   "path": [
+    "3145c409f259b7c53e32036090ff76751025a2498ba9823ef718cac50b4e616f",
+    "bd45ff28796704d88bdac51b1df553fda59837b616d6d1cb2114dbc3b087ff69",
+    "f58aaab46122102d66b00c5eb50b13dd763b5f800139b424fda8b1cacae1408a",
+    "0987e0642e1f474f9559a891878d4c9afa846570074aa8a433cd30338a80b746",
+    "18cdc6bd01687da3b81e8d09acef25898fd8d9964cead483caff12be33121361",
+    "d867c85eea0576618738eb0f99c9d3f4beee1628edd7663e189ad55c40d6a449"
+   ],
+   "root": "22924fa0fcb8ac3b8675a9719a021285fc622b3cedddd4eb5709ea9e8f2563e9",
+   "leaf_data": "leaf-0"
+  },
+  {
+   "size": 33,
+   "index": 16,
+   "leaf_hash": "df4b1261a2dd5a7cf9d6d3cd04d36aac160f5a05b86831fca9793d8984375af9",
+   "path": [
+    "8db3dd3b205d5eb852a21ec9dedfa2174cff781b29b2e09ae1b07533897ee6cd",
+    "43fb1a035c58b7d2ddb48d390e0a78e9c55d9b68b4f9746edb32192fbf075d9f",
+    "5c60fb5a36441fa9b5ac44308d9c2fe0c7750783f88bf98301b976e89b557558",
+    "6bb457bab0e0daa10f8c8c0b02586706a79ef696881317eaf2237c9d6b6d05d9",
+    "cba3a9fefaccc7480d94577a738a22b99d3b7ded3a218a5628b4c5c8f77b87a7",
+    "d867c85eea0576618738eb0f99c9d3f4beee1628edd7663e189ad55c40d6a449"
+   ],
+   "root": "22924fa0fcb8ac3b8675a9719a021285fc622b3cedddd4eb5709ea9e8f2563e9",
+   "leaf_data": "leaf-16"
+  },
+  {
+   "size": 33,
+   "index": 32,
+   "leaf_hash": "d867c85eea0576618738eb0f99c9d3f4beee1628edd7663e189ad55c40d6a449",
+   "path": [
+    "5910ab4a28c8754ba5cd1b098f74ffb05926d7a91bd40ab0904ef8779465347b"
+   ],
+   "root": "22924fa0fcb8ac3b8675a9719a021285fc622b3cedddd4eb5709ea9e8f2563e9",
+   "leaf_data": "leaf-32"
+  }
+ ],
+ "protocol": {
+  "device_id": "esp32-iso1-01",
+  "device_seed": "0707070707070707070707070707070707070707070707070707070707070707",
+  "device_public_key": "ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c",
+  "device_did": "did:key:z6MkvDqGT54cXesYGvABpF1UapVNwjCqRcafi4Px6Thv5T3Z",
+  "server_seed": "0909090909090909090909090909090909090909090909090909090909090909",
+  "server_public_key": "fd1724385aa0c75b64fb78cd602fa1d991fdebf76b13c58ed702eac835e9f618",
+  "server_did": "did:key:z6MkwVDfCg9LbbY6xjH3EZk8YSFQZujV5Y4y1ZWeER9tDiN3",
+  "readings": [
+   {
+    "body": "{\"co2_ppm\":600,\"pm25_ugm3\":8,\"temp_c\":22.5,\"rh_pct\":44,\"occupancy\":0,\"firmware_version\":\"0.2.0\",\"ts\":1760097600}",
+    "signature": "4IfDq4kivlEf0At7CHs5JLaZoBjrbJrnuqUxEMguBeR81FZf8fz3FEhJ6YSV1m9PsGa6nLHQiAryR5EcyfkCCQ",
+    "reading_ms": 1760097600000,
+    "leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097600000|12b070d7a92556b3972f908dcc33a4ac9676fe59a378c98674a3ea86f8a39b54|4IfDq4kivlEf0At7CHs5JLaZoBjrbJrnuqUxEMguBeR81FZf8fz3FEhJ6YSV1m9PsGa6nLHQiAryR5EcyfkCCQ",
+    "leaf_hash": "f6b6a3e094c45959d3648a5dbb963a3b29253cd71da1f7a2de5997cbc1a70cd9",
+    "unsigned_leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097600000|12b070d7a92556b3972f908dcc33a4ac9676fe59a378c98674a3ea86f8a39b54|-"
+   },
+   {
+    "body": "{\"co2_ppm\":640,\"pm25_ugm3\":9,\"temp_c\":22.5,\"rh_pct\":44,\"occupancy\":1,\"firmware_version\":\"0.2.0\",\"ts\":1760097630}",
+    "signature": "5NpKyhtNHTtArIXzWcObQzBTEQYqnpdEALxE7lbIMfkx7yWynI7U6BwvdFgXllk9a2O7NSvM-rD65mWWxjCTAA",
+    "reading_ms": 1760097630000,
+    "leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097630000|b23e0c824368cca8de50e1a094d0f2ade346a5e7a300fed8a2a302316c024d1d|5NpKyhtNHTtArIXzWcObQzBTEQYqnpdEALxE7lbIMfkx7yWynI7U6BwvdFgXllk9a2O7NSvM-rD65mWWxjCTAA",
+    "leaf_hash": "a4fbdc50c2101bcfc11d9d55577ddff2226f5cce251b0518a4add9d66b6e7031",
+    "unsigned_leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097630000|b23e0c824368cca8de50e1a094d0f2ade346a5e7a300fed8a2a302316c024d1d|-"
+   },
+   {
+    "body": "{\"co2_ppm\":680,\"pm25_ugm3\":10,\"temp_c\":22.5,\"rh_pct\":44,\"occupancy\":2,\"firmware_version\":\"0.2.0\",\"ts\":1760097660}",
+    "signature": "6w0QTYZzDHh-Utwu8U_IwTwHxgH-rSPyz1W_ISWLdhpW6l8_R9v4YGygA1mFrOy8NJIYwVFTinD4E5nP_ql6Aw",
+    "reading_ms": 1760097660000,
+    "leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097660000|e508572a66bb8ec1643bd8bfd12428ee1755e8303f36bda3e37df50a599cf5be|6w0QTYZzDHh-Utwu8U_IwTwHxgH-rSPyz1W_ISWLdhpW6l8_R9v4YGygA1mFrOy8NJIYwVFTinD4E5nP_ql6Aw",
+    "leaf_hash": "08004ea5b2b3c4879f71e84afa5e02eb9dd503e857af1e2d4dcbb3c81a869605",
+    "unsigned_leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097660000|e508572a66bb8ec1643bd8bfd12428ee1755e8303f36bda3e37df50a599cf5be|-"
+   },
+   {
+    "body": "{\"co2_ppm\":720,\"pm25_ugm3\":11,\"temp_c\":22.5,\"rh_pct\":44,\"occupancy\":0,\"firmware_version\":\"0.2.0\",\"ts\":1760097690}",
+    "signature": "gvzFlfAy7JdpHc4c6geeLTIxRPAiwA7arp-ooztQvngZt71effpSXNw4LOgjt324feH9xPM63BvPedIlZO3sBQ",
+    "reading_ms": 1760097690000,
+    "leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097690000|3fd5b085406a924f37ebf601f77b66981e5287667bcca2be6af21555e52ffd40|gvzFlfAy7JdpHc4c6geeLTIxRPAiwA7arp-ooztQvngZt71effpSXNw4LOgjt324feH9xPM63BvPedIlZO3sBQ",
+    "leaf_hash": "d65e910ce866a9e1671ac671358f8132efe831c5b0d2ed1bfa19e7e0380c068b",
+    "unsigned_leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097690000|3fd5b085406a924f37ebf601f77b66981e5287667bcca2be6af21555e52ffd40|-"
+   },
+   {
+    "body": "{\"co2_ppm\":760,\"pm25_ugm3\":12,\"temp_c\":22.5,\"rh_pct\":44,\"occupancy\":1,\"firmware_version\":\"0.2.0\",\"ts\":1760097720}",
+    "signature": "MtPZ5PYOcPSOfoni-PLWWdgLUWxYgz9gGd7FIU93eqIjHUlQSMEwGJtEGf4Jfu1Mb5H39MXVpwGs9VC5957oAw",
+    "reading_ms": 1760097720000,
+    "leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097720000|c1b27178e62aa14c5a6fd2469e4e8caed310cdab7fe0cbdaf72467ea49133f87|MtPZ5PYOcPSOfoni-PLWWdgLUWxYgz9gGd7FIU93eqIjHUlQSMEwGJtEGf4Jfu1Mb5H39MXVpwGs9VC5957oAw",
+    "leaf_hash": "0a635d11729187079e0db9066fbececb261b7e7c955459036f4e5e3c1838875f",
+    "unsigned_leaf_input": "AIRSAFE-LEAF-V1|esp32-iso1-01|1760097720000|c1b27178e62aa14c5a6fd2469e4e8caed310cdab7fe0cbdaf72467ea49133f87|-"
+   }
+  ],
+  "root": "9ba327c8bd657e9cb35d239ac7664488d59173ad0483c20afc431b835c949b25",
+  "batch": {
+   "id": 3,
+   "leaf_count": 5,
+   "from_ms": 1760097600000,
+   "to_ms": 1760097720000
+  },
+  "proof_index": 2,
+  "audit_path": [
+   "d65e910ce866a9e1671ac671358f8132efe831c5b0d2ed1bfa19e7e0380c068b",
+   "3a1aee83082a38dc16224f66e8da85cfce2e2cfb3f7b22fd74b9e853fefe5cb5",
+   "0a635d11729187079e0db9066fbececb261b7e7c955459036f4e5e3c1838875f"
+  ],
+  "checkpoint_message": "AIRSAFE-CHECKPOINT-V1|3|9ba327c8bd657e9cb35d239ac7664488d59173ad0483c20afc431b835c949b25|5|1760097600000|1760097720000",
+  "checkpoint_signature": "hmaL6Z2Z1qaHorXgZuMBq9EC5jqPD9qzJ9YgSQy7zKCPvKO92_Z6QS9yu6Ej-jr0IPCa7DS7A3OsPBALkkUNCw",
+  "reading_sig_message_hex": "414952534146452d52454144494e472d56310a65737033322d69736f312d30310a7b22636f325f70706d223a3630302c22706d32355f75676d33223a382c2274656d705f63223a32322e352c2272685f706374223a34342c226f63637570616e6379223a302c226669726d776172655f76657273696f6e223a22302e322e30222c227473223a313736303039373630307d"
+ }
+}

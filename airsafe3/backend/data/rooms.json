@@ -1,0 +1,622 @@
+[
+ {
+  "id": "iso1",
+  "vertical": "hospital",
+  "name": "Isolation 1",
+  "department": "Isolation Wards",
+  "tier": "Critical Care & Isolation",
+  "room_type": "isolation",
+  "capacity": 1,
+  "ventilation_factor": 1.17
+ },
+ {
+  "id": "iso2",
+  "vertical": "hospital",
+  "name": "Isolation 2",
+  "department": "Isolation Wards",
+  "tier": "Critical Care & Isolation",
+  "room_type": "isolation",
+  "capacity": 1,
+  "ventilation_factor": 0.5
+ },
+ {
+  "id": "nicu1",
+  "vertical": "hospital",
+  "name": "NICU 1",
+  "department": "NICU",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 6,
+  "ventilation_factor": 1.25
+ },
+ {
+  "id": "nicu2",
+  "vertical": "hospital",
+  "name": "NICU 2",
+  "department": "NICU",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 6,
+  "ventilation_factor": 0.75
+ },
+ {
+  "id": "nicu3",
+  "vertical": "hospital",
+  "name": "NICU 3",
+  "department": "NICU",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 6,
+  "ventilation_factor": 1.33
+ },
+ {
+  "id": "icu1",
+  "vertical": "hospital",
+  "name": "ICU 1",
+  "department": "ICU / CCU",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 1.0
+ },
+ {
+  "id": "icu2",
+  "vertical": "hospital",
+  "name": "ICU 2",
+  "department": "ICU / CCU",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 1.08
+ },
+ {
+  "id": "icu3",
+  "vertical": "hospital",
+  "name": "ICU 3",
+  "department": "ICU / CCU",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 0.83
+ },
+ {
+  "id": "ccu1",
+  "vertical": "hospital",
+  "name": "CCU 1",
+  "department": "ICU / CCU",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.17
+ },
+ {
+  "id": "edtri",
+  "vertical": "hospital",
+  "name": "ED Triage",
+  "department": "Emergency Department",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 10,
+  "ventilation_factor": 0.92
+ },
+ {
+  "id": "edres",
+  "vertical": "hospital",
+  "name": "ED Resus",
+  "department": "Emergency Department",
+  "tier": "Critical Care & Isolation",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.67
+ },
+ {
+  "id": "ot1",
+  "vertical": "hospital",
+  "name": "OT 1",
+  "department": "Operating Theatre",
+  "tier": "Surgical & Specialty",
+  "room_type": "ot",
+  "capacity": 8,
+  "ventilation_factor": 1.83
+ },
+ {
+  "id": "ot2",
+  "vertical": "hospital",
+  "name": "OT 2",
+  "department": "Operating Theatre",
+  "tier": "Surgical & Specialty",
+  "room_type": "ot",
+  "capacity": 8,
+  "ventilation_factor": 1.42
+ },
+ {
+  "id": "rec1",
+  "vertical": "hospital",
+  "name": "Recovery Bay",
+  "department": "Recovery Room",
+  "tier": "Surgical & Specialty",
+  "room_type": "general",
+  "capacity": 8,
+  "ventilation_factor": 1.17
+ },
+ {
+  "id": "onc1",
+  "vertical": "hospital",
+  "name": "Oncology A",
+  "department": "Oncology Ward",
+  "tier": "Surgical & Specialty",
+  "room_type": "general",
+  "capacity": 10,
+  "ventilation_factor": 1.0
+ },
+ {
+  "id": "tra1",
+  "vertical": "hospital",
+  "name": "Transplant 1",
+  "department": "Transplant Unit",
+  "tier": "Surgical & Specialty",
+  "room_type": "general",
+  "capacity": 2,
+  "ventilation_factor": 1.5
+ },
+ {
+  "id": "gwa",
+  "vertical": "hospital",
+  "name": "General Ward A",
+  "department": "General Wards",
+  "tier": "General & Support",
+  "room_type": "general",
+  "capacity": 20,
+  "ventilation_factor": 0.83
+ },
+ {
+  "id": "gwb",
+  "vertical": "hospital",
+  "name": "General Ward B",
+  "department": "General Wards",
+  "tier": "General & Support",
+  "room_type": "general",
+  "capacity": 20,
+  "ventilation_factor": 0.75
+ },
+ {
+  "id": "opd",
+  "vertical": "hospital",
+  "name": "OPD Waiting",
+  "department": "OPD Waiting Area",
+  "tier": "General & Support",
+  "room_type": "general",
+  "capacity": 25,
+  "ventilation_factor": 0.58
+ },
+ {
+  "id": "cor",
+  "vertical": "hospital",
+  "name": "Main Corridor",
+  "department": "Hospital Corridors",
+  "tier": "General & Support",
+  "room_type": "general",
+  "capacity": 5,
+  "ventilation_factor": 0.67
+ },
+ {
+  "id": "elv",
+  "vertical": "hospital",
+  "name": "Elevator Bank",
+  "department": "Elevators",
+  "tier": "General & Support",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 0.5
+ },
+ {
+  "id": "lab",
+  "vertical": "hospital",
+  "name": "Lab · Microbiology",
+  "department": "Laboratories",
+  "tier": "General & Support",
+  "room_type": "general",
+  "capacity": 6,
+  "ventilation_factor": 1.25
+ },
+ {
+  "id": "h101",
+  "vertical": "hotel",
+  "name": "101",
+  "department": "Floor 1",
+  "tier": "Floor 1",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.3
+ },
+ {
+  "id": "h102",
+  "vertical": "hotel",
+  "name": "102",
+  "department": "Floor 1",
+  "tier": "Floor 1",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.6
+ },
+ {
+  "id": "h103",
+  "vertical": "hotel",
+  "name": "103",
+  "department": "Floor 1",
+  "tier": "Floor 1",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.6
+ },
+ {
+  "id": "h104",
+  "vertical": "hotel",
+  "name": "104",
+  "department": "Floor 1",
+  "tier": "Floor 1",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.2
+ },
+ {
+  "id": "h105",
+  "vertical": "hotel",
+  "name": "105",
+  "department": "Floor 1",
+  "tier": "Floor 1",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.5
+ },
+ {
+  "id": "h106",
+  "vertical": "hotel",
+  "name": "106",
+  "department": "Floor 1",
+  "tier": "Floor 1",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.4
+ },
+ {
+  "id": "h201",
+  "vertical": "hotel",
+  "name": "201",
+  "department": "Floor 2",
+  "tier": "Floor 2",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.8
+ },
+ {
+  "id": "h202",
+  "vertical": "hotel",
+  "name": "202",
+  "department": "Floor 2",
+  "tier": "Floor 2",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.5
+ },
+ {
+  "id": "h203",
+  "vertical": "hotel",
+  "name": "203",
+  "department": "Floor 2",
+  "tier": "Floor 2",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.1
+ },
+ {
+  "id": "h204",
+  "vertical": "hotel",
+  "name": "204",
+  "department": "Floor 2",
+  "tier": "Floor 2",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.55
+ },
+ {
+  "id": "h205",
+  "vertical": "hotel",
+  "name": "205",
+  "department": "Floor 2",
+  "tier": "Floor 2",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.4
+ },
+ {
+  "id": "h206",
+  "vertical": "hotel",
+  "name": "206",
+  "department": "Floor 2",
+  "tier": "Floor 2",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.2
+ },
+ {
+  "id": "h301",
+  "vertical": "hotel",
+  "name": "301",
+  "department": "Floor 3",
+  "tier": "Floor 3",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.3
+ },
+ {
+  "id": "h302",
+  "vertical": "hotel",
+  "name": "302",
+  "department": "Floor 3",
+  "tier": "Floor 3",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.7
+ },
+ {
+  "id": "h303",
+  "vertical": "hotel",
+  "name": "303",
+  "department": "Floor 3",
+  "tier": "Floor 3",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.5
+ },
+ {
+  "id": "h304",
+  "vertical": "hotel",
+  "name": "304",
+  "department": "Floor 3",
+  "tier": "Floor 3",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.2
+ },
+ {
+  "id": "h305",
+  "vertical": "hotel",
+  "name": "305",
+  "department": "Floor 3",
+  "tier": "Floor 3",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.4
+ },
+ {
+  "id": "h306",
+  "vertical": "hotel",
+  "name": "306",
+  "department": "Floor 3",
+  "tier": "Floor 3",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.4
+ },
+ {
+  "id": "h401",
+  "vertical": "hotel",
+  "name": "401 · Suite",
+  "department": "Floor 4",
+  "tier": "Floor 4",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 1.3
+ },
+ {
+  "id": "h402",
+  "vertical": "hotel",
+  "name": "402 · Suite",
+  "department": "Floor 4",
+  "tier": "Floor 4",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 1.6
+ },
+ {
+  "id": "h403",
+  "vertical": "hotel",
+  "name": "403",
+  "department": "Floor 4",
+  "tier": "Floor 4",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 0.6
+ },
+ {
+  "id": "h404",
+  "vertical": "hotel",
+  "name": "404",
+  "department": "Floor 4",
+  "tier": "Floor 4",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.2
+ },
+ {
+  "id": "h405",
+  "vertical": "hotel",
+  "name": "405",
+  "department": "Floor 4",
+  "tier": "Floor 4",
+  "room_type": "general",
+  "capacity": 3,
+  "ventilation_factor": 1.4
+ },
+ {
+  "id": "h406",
+  "vertical": "hotel",
+  "name": "406 · Suite",
+  "department": "Floor 4",
+  "tier": "Floor 4",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 0.5
+ },
+ {
+  "id": "mr1a",
+  "vertical": "corporate",
+  "name": "MR 1A",
+  "department": "Meeting Rooms",
+  "tier": "Collaboration Spaces",
+  "room_type": "meeting",
+  "capacity": 6,
+  "ventilation_factor": 1.2
+ },
+ {
+  "id": "mr2b",
+  "vertical": "corporate",
+  "name": "MR 2B",
+  "department": "Meeting Rooms",
+  "tier": "Collaboration Spaces",
+  "room_type": "meeting",
+  "capacity": 8,
+  "ventilation_factor": 1.5
+ },
+ {
+  "id": "mr3a",
+  "vertical": "corporate",
+  "name": "MR 3A",
+  "department": "Meeting Rooms",
+  "tier": "Collaboration Spaces",
+  "room_type": "meeting",
+  "capacity": 4,
+  "ventilation_factor": 1.6
+ },
+ {
+  "id": "mr3b",
+  "vertical": "corporate",
+  "name": "MR 3B",
+  "department": "Meeting Rooms",
+  "tier": "Collaboration Spaces",
+  "room_type": "meeting",
+  "capacity": 10,
+  "ventilation_factor": 0.55
+ },
+ {
+  "id": "board",
+  "vertical": "corporate",
+  "name": "Boardroom",
+  "department": "Meeting Rooms",
+  "tier": "Collaboration Spaces",
+  "room_type": "meeting",
+  "capacity": 14,
+  "ventilation_factor": 0.85
+ },
+ {
+  "id": "ws1",
+  "vertical": "corporate",
+  "name": "Open Floor 1",
+  "department": "Open Workspace",
+  "tier": "Collaboration Spaces",
+  "room_type": "general",
+  "capacity": 60,
+  "ventilation_factor": 1.1
+ },
+ {
+  "id": "ws2",
+  "vertical": "corporate",
+  "name": "Open Floor 2",
+  "department": "Open Workspace",
+  "tier": "Collaboration Spaces",
+  "room_type": "general",
+  "capacity": 60,
+  "ventilation_factor": 0.6
+ },
+ {
+  "id": "ws3",
+  "vertical": "corporate",
+  "name": "Open Floor 3",
+  "department": "Open Workspace",
+  "tier": "Collaboration Spaces",
+  "room_type": "general",
+  "capacity": 60,
+  "ventilation_factor": 1.5
+ },
+ {
+  "id": "fpa",
+  "vertical": "corporate",
+  "name": "Focus Pod A",
+  "department": "Focus Pods",
+  "tier": "Focus & Executive",
+  "room_type": "general",
+  "capacity": 2,
+  "ventilation_factor": 1.3
+ },
+ {
+  "id": "fpb",
+  "vertical": "corporate",
+  "name": "Focus Pod B",
+  "department": "Focus Pods",
+  "tier": "Focus & Executive",
+  "room_type": "general",
+  "capacity": 2,
+  "ventilation_factor": 0.65
+ },
+ {
+  "id": "exec",
+  "vertical": "corporate",
+  "name": "Executive Suite",
+  "department": "Executive",
+  "tier": "Focus & Executive",
+  "room_type": "general",
+  "capacity": 6,
+  "ventilation_factor": 1.4
+ },
+ {
+  "id": "ceo",
+  "vertical": "corporate",
+  "name": "CEO Office",
+  "department": "Executive",
+  "tier": "Focus & Executive",
+  "room_type": "general",
+  "capacity": 1,
+  "ventilation_factor": 1.5
+ },
+ {
+  "id": "cafe",
+  "vertical": "corporate",
+  "name": "Cafeteria",
+  "department": "Amenities",
+  "tier": "Amenities & Common Areas",
+  "room_type": "general",
+  "capacity": 80,
+  "ventilation_factor": 1.2
+ },
+ {
+  "id": "lobby",
+  "vertical": "corporate",
+  "name": "Reception / Lobby",
+  "department": "Amenities",
+  "tier": "Amenities & Common Areas",
+  "room_type": "general",
+  "capacity": 20,
+  "ventilation_factor": 1.3
+ },
+ {
+  "id": "wellness",
+  "vertical": "corporate",
+  "name": "Wellness Room",
+  "department": "Amenities",
+  "tier": "Amenities & Common Areas",
+  "room_type": "general",
+  "capacity": 4,
+  "ventilation_factor": 1.6
+ },
+ {
+  "id": "gym",
+  "vertical": "corporate",
+  "name": "Gym",
+  "department": "Amenities",
+  "tier": "Amenities & Common Areas",
+  "room_type": "general",
+  "capacity": 15,
+  "ventilation_factor": 1.0
+ }
+]

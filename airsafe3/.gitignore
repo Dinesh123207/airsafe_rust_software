@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+target/
+.env
+.pio/
+contracts/out/
+contracts/cache/
+contracts/lib/
+*.log
+firmware/airsafe_node/config_local.h
+firmware/airsafe_node/config_local.h.*
